@@ -5,6 +5,7 @@
   margin-top: 2%;
   border: 1px solid #222222;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .underlined_text {
@@ -14,9 +15,46 @@
   text-decoration: underline;
   text-decoration-color: #76ead5;
   text-transform: uppercase;
+  font-size: 1.5em;
+  display: block;
+  text-align: left;
 }
 
-/* Свойства цкласса при наведении */
 .underlined_text:hover {
   cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #76ead5;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #64bfa3;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h2, h3 {
+  font-size: 1.2em;
 }
